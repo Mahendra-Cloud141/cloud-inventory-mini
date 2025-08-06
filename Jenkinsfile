@@ -7,11 +7,8 @@ pipeline {
     }
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/Mahendra-Cloud141/cloud-inventory-mini.git'
-            }
-        }
+        
+        
 
         stage('Install Dependencies') {
             steps {
